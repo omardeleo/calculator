@@ -21,8 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run test:jshint && react-scripts test --env=jsdom",
-    "test:jshint": "jshint hello.js",
+    "test": "jshint hello.js",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
